@@ -19,13 +19,13 @@ const url = "https://nabindhamala.com";
 
 export const metadata = {
   metadataBase: new URL(url),
-  title: "Nabin Dhamala — Journalist, Entrepreneur, Chairman of Public Relation Nepal",
+  title: "Nabin Dhamala — Journalist, Founder of Public Relation Nepal, Chairman of Sarun Media",
   description:
-    "Nabin Dhamala is a Nepali journalist and entrepreneur, chairman of Public Relation Nepal, a Kathmandu communications agency working with governments, institutions and brands.",
+    "Nabin Dhamala is a Nepali journalist and entrepreneur, MD & founder of Public Relation Nepal, chairman of Sarun Media and editor of onlinesarokar.com. Campaign strategist and media counsel to former chief ministers, mayors and institutions.",
   openGraph: {
     type: "profile",
     title: "Nabin Dhamala",
-    description: "Journalist. Entrepreneur. Chairman, Public Relation Nepal.",
+    description: "Journalist. Founder, Public Relation Nepal. Chairman, Sarun Media.",
     images: ["/nabin.jpg"],
     locale: "en_NP",
   },
@@ -39,7 +39,7 @@ const schema = {
   "@type": "Person",
   name: "Nabin Dhamala",
   alternateName: "नबिन धमला",
-  jobTitle: "Chairman",
+  jobTitle: "Managing Director & Founder",
   email: "nabindhamala@publicrelationnepal.com",
   telephone: "+977-985-107-5588",
   address: { "@type": "PostalAddress", addressLocality: "Kathmandu", addressCountry: "NP" },

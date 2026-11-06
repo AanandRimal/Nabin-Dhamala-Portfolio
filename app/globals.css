@@ -136,6 +136,24 @@ h2{font-family:var(--display);font-weight:600;font-size:clamp(1.9rem,3.6vw,2.9re
 footer{border-top:1px solid var(--rule);padding:26px 0;font-size:14px;color:var(--muted)}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
+.row h3 small{display:block;margin-top:6px;font-family:var(--body);font-size:.85rem;font-weight:500;color:#7B858E;letter-spacing:.02em}
+.sub{font-family:var(--display);font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--crimson);margin:44px 0 14px;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.chips li{border:1px solid var(--rule-dark);padding:7px 15px;font-size:15px;transition:background .2s,color .2s}
+.chips li:hover{background:var(--ink);color:var(--bone)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;margin-top:10px}
+.card{background:var(--ink-2);border:1px solid var(--rule);border-top:3px solid var(--crimson);padding:24px}
+.card h3{font-family:var(--display);font-size:1.5rem;margin:0 0 4px;font-weight:600}
+.card span{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#9FB0BF}
+.card p{margin:14px 0 0;font-size:.98rem;color:var(--dim);line-height:1.65}
+.voices{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.voice{margin:0;display:flex;flex-direction:column;justify-content:space-between;gap:22px;background:#fff;border:1px solid var(--rule-dark);border-left:3px solid var(--crimson);padding:26px}
+.voice blockquote{margin:0;font-size:1.04rem;line-height:1.65;color:#2B3742}
+.voice figcaption{display:flex;align-items:center;gap:14px;font-size:13.5px;line-height:1.35;color:#5C6772}
+.voice figcaption b{display:block;font-size:15.5px;font-weight:600;color:var(--ink)}
+.voice figcaption i,.voice figcaption img{flex:none;width:48px;height:48px;border-radius:50%;object-fit:cover}
+.voice figcaption i{display:grid;place-items:center;background:var(--ink);color:var(--bone);font-family:var(--display);font-style:normal;font-weight:600;font-size:18px;letter-spacing:.04em}
+
 @media (max-width:900px){
   .hero .wrap{grid-template-columns:1fr}
   .portrait{order:-1;max-width:460px}
